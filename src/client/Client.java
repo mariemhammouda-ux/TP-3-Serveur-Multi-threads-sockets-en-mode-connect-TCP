@@ -4,7 +4,7 @@ import java.net.*;
 import java.util.Scanner;
 public class Client {
     public static void main(String[] args) {
-        String adresseServeur = "localhost";
+        String adresseServeur = "192.168.100.7";
         int port = 1234;
         if (args.length > 0) {
             adresseServeur = args[0];
